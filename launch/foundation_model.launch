@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- launch the realsense camera node -->
+    <node name="realsense_camera" pkg="foundation_model" type="realsense_camera.py" output="screen" />
+
+    <!--  laun -->
+    <node name="foundation_model" pkg="foundation_model" type="foundation_model.py" output="screen" />
+
+</launch>
